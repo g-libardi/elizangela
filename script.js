@@ -41,7 +41,7 @@
       showToast("Chave PIX copiada!");
 
       setTimeout(function () {
-        if (copyBtnText) copyBtnText.textContent = "Copiar PIX";
+        if (copyBtnText) copyBtnText.textContent = "📋 Copiar PIX";
         copyBtn?.classList.remove("is-success");
         if (pixFeedback) pixFeedback.textContent = "";
       }, 3500);
