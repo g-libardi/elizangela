@@ -56,9 +56,9 @@
 
   async function sharePage() {
     const shareData = {
-      title: "Vaquinha · Elizangela Silva Araujo",
-      text: "Ajude a Elizangela no tratamento contra o câncer de mama. Doe via PIX ou compartilhe.",
-      url: window.location.href,
+      title: "Ajude Elizangela Silva Araujo",
+      text: "Vaquinha solidária no tratamento contra o câncer de mama. Doe via PIX ou compartilhe o link.",
+      url: "https://ajuda-elizangela.netlify.app/",
     };
 
     if (navigator.share) {
